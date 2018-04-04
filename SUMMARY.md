@@ -1,8 +1,19 @@
-# Summary
+# 目次
 
 * [はじめに](/README.md)
 * [駅すぱあとWebサービスとは？](/docs/product.md)
 * [アプリケーションを作ってみよう](/docs/app.md)
 * [APIの解説](/docs/api.md)
+  * [APIのリクエストURLを理解する](/docs/api.md#url)
+  * [レスポンスのデータフォーマット](/docs/api.md#format)
+  * [APIの詳しい仕様](/docs/api.md#detail)
+    * [駅簡易API](/docs/api.md#station-light)
+    * [経路探索API](/docs/api.md#search-course-extreme)
 * [さいごに](/docs/end.md)
 * [付録](/docs/appendix.md)
+  * [開発を始める前に](/docs/appendix.md#before)
+    * [レスポンスXMLのデータ構造について](/docs/appendix.md#xml)
+    * [課金の対象を知る](/docs/appendix.md#charge)
+  * [開発お役立ちツール](/docs/appendix.md#tools)
+    * [APIの仕様理解を深める「API Checker」](/docs/appendix.md#apichecker)
+    * [開発者ツールを使いこなす](/docs/appendix.md#devtool)
