@@ -12,7 +12,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 ▼図6 WebブラウザでURLを開いた時の画面
 
-![img](../img/6.png)
+![img](/img/6.png)
 
 
 403エラーになってしまった？
@@ -33,7 +33,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 ▼図7 APIのリクエストURL構成
 
-![img](../img/7.png)
+![img](/img/7.png)
 
 ## レスポンスのデータフォーマット
 
@@ -58,7 +58,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 
 ▼図8 レスポンスデータの解説
 
-![img](../img/8.png)
+![img](/img/8.png)
 
 駅すぱあとが持つ駅には、「駅コード」と呼ばれるユニークな値が割り振られます。駅コードは、駅名変更などに関わらず基本的に不変ですので、保存を前提とした利用は駅コードが推奨されます。「都道府県コード」とは、駅すぱあとWebサービスで定める都道府県に紐づいたコードです。
 
@@ -83,16 +83,16 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 ▼図9 レスポンスデータの解説 所要時間
 
-![img](../img/9.png)
+![img](/img/9.png)
 
 経路全体の運賃は、kindの値がFareSummaryとなっているOnewayの値です。経路の一区間の運賃は、kindの値がFareとなっているOnewayの値です（図10）。
 
 ▼図10 レスポンスデータの解説 運賃
 
-![img](../img/10.png)
+![img](/img/10.png)
 
 Point[0].Station.Name、Line.Name、Point[1].Station.Nameを交互に並べることで、経路を表現できます（図11）。
 
 ▼図11 レスポンスデータの解説 経路表現
 
-![img](../img/11.png)
+![img](/img/11.png)
