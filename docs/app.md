@@ -116,7 +116,7 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 {% endhint %}
 
 
-### 脚注
+## 脚注
 [^1]: スタンダードプラン評価版申し込みページ https://ekiworld.net/trial/index.php?case=6
 [^2]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI
 [^3]: JSFiddle https://jsfiddle.net/

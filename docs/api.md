@@ -98,7 +98,7 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 ![img](/img/11.png)
 
 
-### 脚注
+## 脚注
 [^1]: 駅簡易情報API http://docs.ekispert.com/v1/api/station/light.html
 [^2]: 経路探索API http://docs.ekispert.com/v1/api/search/course/extreme.html
 [^3]: 駅コード http://docs.ekispert.com/v1/dictionary/station-code/

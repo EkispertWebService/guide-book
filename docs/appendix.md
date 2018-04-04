@@ -57,6 +57,6 @@ XMLを利用する際には、XMLパーサを利用することが多いかと�
 細かい使い方に関してもっと知りたくなったかと思いますが、インターネット上に沢山の情報が公開されているので、ここでは割愛します。ぜひ調べてみてください。
 
 
-### 脚注
+## 脚注
 [^1]: 利用上の注意 http://docs.ekispert.com/v1/get-started/attention/
 [^2]: API Checker http://docs.ekispert.com/v1/tools/api-checker/
