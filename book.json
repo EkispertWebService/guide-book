@@ -3,5 +3,6 @@
   "styles": {
     "epub": "styles/epub.css",
     "website": "styles/website.css"
-  }
+  },
+  "plugins": ["hints"]
 }
