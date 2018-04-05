@@ -2,7 +2,8 @@
   "language": "ja",
   "styles": {
     "epub": "styles/epub.css",
-    "website": "styles/website.css"
+    "website": "styles/website.css",
+    "pdf": "styles/pdf.css"
   },
   "plugins": ["hints"]
 }
