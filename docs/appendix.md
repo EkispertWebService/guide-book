@@ -85,6 +85,11 @@ https://www.facebook.com/EkispertWebService/
 駅すぱあとWebサービスの稼働状況をご覧いただけます。  
 http://status.api.ekispert.jp/
 
+## 特別付録！スタンダードプラン10%OFFキャンペーン
+
+今回の出版を記念して、スタンダードプランの初期費用10%OFFできるキャンペーンコードを発行いたします。
+
+
 ## 脚注
 [^1]: 利用上の注意 http://docs.ekispert.com/v1/get-started/attention/
 [^2]: API Checker http://docs.ekispert.com/v1/tools/api-checker/
