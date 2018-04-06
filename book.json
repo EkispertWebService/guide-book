@@ -5,5 +5,9 @@
     "website": "styles/website.css",
     "pdf": "styles/pdf.css"
   },
-  "plugins": ["hints"]
+  "plugins": ["hints"],
+  "pdf": {
+    "fontSize": 12,
+    "paperSize": "a5"
+  }
 }
