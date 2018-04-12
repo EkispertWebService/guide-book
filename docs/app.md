@@ -89,10 +89,10 @@ search.addEventListener('click', (e) => {
 次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」というボタン（図3）がありますので、それをクリックするとインクルードするURLを入力する項目が出てきます。4つのURLを入力してください。
 
 ```
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
+https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
+https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
+https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
+https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ```
 
 ▼図3 「Resources」ボタン
@@ -118,6 +118,6 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 
 ## 脚注
 [^1]: スタンダードプランは法人のお客様のみご利用いただけます。
-[^2]: スタンダードプラン評価版申し込みページ https://ekiworld.net/trial/index.php?case=6
-[^3]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI
-[^4]: JSFiddle https://jsfiddle.net/
+[^2]: スタンダードプラン評価版申し込みページ https&#58;//ekiworld.net/trial/index.php?case=6
+[^3]: HTML5インターフェースサンプル https&#58;//github.com/EkispertWebService/GUI
+[^4]: JSFiddle https&#58;//jsfiddle.net/

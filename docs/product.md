@@ -23,5 +23,5 @@ WebAPIとしての提供により、自身の環境でのインストールや�
 
 ## 脚注
 
-[^1]: 駅すぱあとWebサービス 開発者向けドキュメント http://docs.ekispert.com/v1/
-[^2]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI
+[^1]: 駅すぱあとWebサービス 開発者向けドキュメント http&#58;//docs.ekispert.com/v1/
+[^2]: HTML5インターフェースサンプル https&#58;//github.com/EkispertWebService/GUI

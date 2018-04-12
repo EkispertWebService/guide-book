@@ -7,4 +7,4 @@
 利用を検討されたり、興味を持たれたりした際に本書がお役にたてば幸いです。
 
 ## 脚注
-[^1]: 「駅すぱあと」とは https://ekiworld.net/about/index.html
+[^1]: 「駅すぱあと」とは https&#58;//ekiworld.net/about/index.html

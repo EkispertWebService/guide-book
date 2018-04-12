@@ -63,31 +63,31 @@ XMLを利用する際には、XMLパーサを利用することが多いかと�
 ##### ・駅すぱあとWebサービス 製品ページ
 
 駅すぱあとWebサービスの情報はこちらにまとまっています。  
-https://ekiworld.net/service/sier/webservice/index.html
+https&#58;//ekiworld.net/service/sier/webservice/index.html
 
 ##### ・駅すぱあとWebサービス 開発者向けドキュメント
 
 APIの仕様や開発に役立つ多くの情報を載せています。  
-http://docs.ekispert.com/v1/
+http&#58;//docs.ekispert.com/v1/
 
 ##### ・HTML5インターフェースサンプル
 
 HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。  
-https://github.com/EkispertWebService/GUI
+https&#58;//github.com/EkispertWebService/GUI
 
 ##### ・駅すぱあとWebサービス Facebookページ
 
 駅すぱあとWebサービスに関しての最新の情報を配信しています。  
-https://www.facebook.com/EkispertWebService/
+https&#58;//www.facebook.com/EkispertWebService/
 
 ##### ・ステータスページ
 
 駅すぱあとWebサービスの稼働状況をご覧いただけます。  
-http://status.api.ekispert.jp/
+http&#58;//status.api.ekispert.jp/
 
 
 {% include "/docs/coupon.md" %}
 
 ## 脚注
-[^1]: 利用上の注意 http://docs.ekispert.com/v1/get-started/attention/
-[^2]: API Checker http://docs.ekispert.com/v1/tools/api-checker/
+[^1]: 利用上の注意 http&#58;//docs.ekispert.com/v1/get-started/attention/
+[^2]: API Checker http&#58;//docs.ekispert.com/v1/tools/api-checker/

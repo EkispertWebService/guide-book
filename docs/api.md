@@ -7,7 +7,7 @@
 次のURLをWebブラウザでアクセスしてみてください。「アクセスキー」の部分はご自身のアクセスキーに置き換えてください。Webブラウザの画面は、図6のように表示されます。
 
 ```
-https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
+https&#58;//api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
 ▼図6 WebブラウザでURLを開いた時の画面
@@ -46,7 +46,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 駅簡易情報API(/station/light)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの駅入力フォームの裏側で利用されている機能です。以下のURLにアクセスします。
 
 ```
-https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
+https&#58;//api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
 ▼表1 指定されたパラメータの説明
@@ -67,7 +67,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 経路探索API(/search/course/extreme)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの探索ボタンの裏側で利用されている機能です。以下のURLにアクセスしてみてください。
 
 ```
-https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
+https&#58;//api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
 ```
 
 ▼表2 指定されたパラメータの説明
@@ -99,10 +99,10 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 
 ## 脚注
-[^1]: 駅簡易情報API http://docs.ekispert.com/v1/api/station/light.html
-[^2]: 経路探索API http://docs.ekispert.com/v1/api/search/course/extreme.html
-[^3]: 駅コード http://docs.ekispert.com/v1/dictionary/station-code/
-[^4]: 都道府県コード http://docs.ekispert.com/v1/dictionary/prefecture-code/
-[^5]: 探索種別 http://docs.ekispert.com/v1/dictionary/search-type/
-[^6]: ダイヤによる探索 http://docs.ekispert.com/v1/dictionary/search-course-by-diagram/
-[^7]: 平均待ち時間による探索 http://docs.ekispert.com/v1/dictionary/search-course-by-average-time/
+[^1]: 駅簡易情報API http&#58;//docs.ekispert.com/v1/api/station/light.html
+[^2]: 経路探索API http&#58;//docs.ekispert.com/v1/api/search/course/extreme.html
+[^3]: 駅コード http&#58;//docs.ekispert.com/v1/dictionary/station-code/
+[^4]: 都道府県コード http&#58;//docs.ekispert.com/v1/dictionary/prefecture-code/
+[^5]: 探索種別 http&#58;//docs.ekispert.com/v1/dictionary/search-type/
+[^6]: ダイヤによる探索 http&#58;//docs.ekispert.com/v1/dictionary/search-course-by-diagram/
+[^7]: 平均待ち時間による探索 http&#58;//docs.ekispert.com/v1/dictionary/search-course-by-average-time/
