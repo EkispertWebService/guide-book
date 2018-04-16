@@ -89,10 +89,10 @@ search.addEventListener('click', (e) => {
 次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」というボタン（図3）がありますので、それをクリックするとインクルードするURLを入力する項目が出てきます。4つのURLを入力してください。
 
 ```
-https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
-https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
-https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
-https&#58;//rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
+https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
+https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
+https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
+https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ```
 
 ▼図3 「Resources」ボタン

@@ -7,7 +7,7 @@
 次のURLをWebブラウザでアクセスしてみてください。「アクセスキー」の部分はご自身のアクセスキーに置き換えてください。Webブラウザの画面は、図6のように表示されます。
 
 ```
-https&#58;//api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
+https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
 ▼図6 WebブラウザでURLを開いた時の画面
@@ -46,7 +46,7 @@ https&#58;//api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=ア�
 駅簡易情報API(/station/light)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの駅入力フォームの裏側で利用されている機能です。以下のURLにアクセスします。
 
 ```
-https&#58;//api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
+https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
 ▼表1 指定されたパラメータの説明
@@ -67,7 +67,7 @@ https&#58;//api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=ア
 経路探索API(/search/course/extreme)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの探索ボタンの裏側で利用されている機能です。以下のURLにアクセスしてみてください。
 
 ```
-https&#58;//api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
+https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
 ```
 
 ▼表2 指定されたパラメータの説明
