@@ -12,7 +12,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 ▼図6 WebブラウザでURLを開いた時の画面
 
-![img](/img/6.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vS8UOsnDyXcou5LK_YKr3p1Cv27C6lVPJf8kiPNzdFcpwdabsbaVR0v7wSstO02H6s_aQj6La7e6imF/pub?w=928&h=532)
 
 {% hint %}
 リスト3のようなレスポンスが表示された場合は、アクセスキーが間違っている可能性があります。今一度、アクセスキーをお確かめください。
@@ -33,7 +33,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 ▼図7 APIのリクエストURL構成
 
-![img](/img/7.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vQsqQEht02Gg7cxKrZUVXPciadzzxb6S9VSAPdQ9Vep20VuuYgATIxt65tj7ypI1kkVx7xvJ4Sm2o-5/pub?w=1578&h=303)
 
 ## レスポンスのデータフォーマット {#format}
 
@@ -58,7 +58,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 
 ▼図8 レスポンスデータの解説
 
-![img](/img/8.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vRHuxBG5ycjHcqu5tQdKn_SkBA66lOe2C6PpeD85rc8FjgRDOUyoqA1uhKVuzaW8hz5FghYWtm9baq8/pub?w=783&h=566)
 
 駅すぱあとが持つ駅には、「駅コード」[^3]と呼ばれるユニークな値が振られています。駅コードは、駅名変更などに関わらず基本的に不変ですので、保存を前提とした利用は駅コードの利用が推奨されます。「都道府県コード」[^4]とは、駅すぱあとWebサービスで定める都道府県に紐づいたコードです。
 
@@ -83,19 +83,19 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 ▼図9 レスポンスデータの解説 所要時間
 
-![img](/img/9.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vTwB3eJ_QBoXI_nx-VVnMF2oR3rqfTXZYTbLa93MfBh8Nil3f-mByu8280rn9Nfmaal5jcHrNRBkz-W/pub?w=846&h=416)
 
 経路全体の運賃は、`kind`の値が`FareSummary`となっている`Oneway`の値です。経路の一区間の運賃は、`kind`の値が`Fare`となっている`Oneway`の値です（図10）。
 
 ▼図10 レスポンスデータの解説 運賃
 
-![img](/img/10.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vS_kwOKH6Tr053FD2lDzu9jznundjbIn0vSjodlV6W1M3Zvgdn7BVhjz49JxgqAUNOFYtWLc9Gu9Hy6/pub?w=892&h=411)
 
 `Point[0].Station.Name`、`Line.Name、Point[1].Station.Name`を交互に並べることで、経路を表現できます（図11）。
 
 ▼図11 レスポンスデータの解説 経路表現
 
-![img](/img/11.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vRdrHjugJSU_7M8623Pizm95OYL8yjK9YPvIPbJwDzpZUiAQrj7u58hpLnFV8Pv2P5Ryj90E8bkOiaP/pub?w=1038&h=619)
 
 
 ## 脚注

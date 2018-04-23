@@ -6,7 +6,8 @@
 
 ▼図1 実装するアプリケーション画面イメージ
 
-![img](/img/1.png)
+![img1](https://docs.google.com/drawings/d/e/2PACX-1vQEwohVNihVrcpstBEzVi1lXT_rjA_MybKX-3sSK-R2FBz1kklEppFinA5zA2rYx_QU8Ebzq5xunqG5/pub?w=1240&h=884)
+
 
 駅すぱあとWebサービスには、無料で使える「フリープラン」と、全ての機能が使える「スタンダードプラン」[^1]の2つのプランがあります。
 今回はスタンダードプランで使える機能でアプリケーションを作っていくので、スタンダードプランが90日間無料で利用できる評価版の申し込み[^2]を行います。
@@ -17,7 +18,8 @@
 
 ▼図2 JSFiddleの画面
 
-![img](/img/2.png)
+![img2](https://docs.google.com/drawings/d/e/2PACX-1vSuw02x_PKsm_w6BSAp7rNB4qLTY-jwtNNFwJlqIm_-yGgq_VhFl9Nz38BMV4CBLeYZn6eZStVmZfpR/pub?w=1392&h=868)
+
 
 HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScriptに関しては、コード例の中にアクセスキーを入力する箇所があります。
 
@@ -86,7 +88,7 @@ search.addEventListener('click', (e) => {
 })
 ```
 
-次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」というボタン（図3）がありますので、それをクリックするとインクルードするURLを入力する項目が出てきます。4つのURLを入力してください。
+次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」と書かれた項目（図3）がありますので、それをクリックするとインクルードするURL入力欄が出てきます。4つのURLを入力してください。
 
 ```
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
@@ -95,21 +97,22 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ```
 
-▼図3 「Resources」ボタン
+▼図3 「Resources」項目
 
-![img](/img/3.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vQJ8ocaoJ62gXCbtTcnqF3LwAUIpwViQJtfZhjPFhWJU1JO_aS-t22wi1RgEnFVk81UcXq6NUkrZPJh/pub?w=611&h=376)
+
 
 これで設定が完了しました。「Run」をクリックし、ソースコードを実行すると、画面右下に実行結果が表示されます。
 
 ▼図4 「Run」を実行した状態
 
-![img](/img/4.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vR4_IiJPjADK4v6_mMvlOdm7yLJguYWS4aRsNfwL8gy0uu0S6IXrbA9QVFETApoJ2BI02R_wSwZTn5h/pub?w=1044&h=621)
 
 駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができます。
 
 ▼図5 アプリケーション実行結果
 
-![img](/img/5.png)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vTYE4DXFueLrsS-2ceyci4Fbgif59CLUS1Y4mDkxAV0mq8wcuS75vpffjwOd4uK0NhGr42dK9XoVDxz/pub?w=820&h=569)
 
 {% hint %}
 アプリケーションが図5のような挙動にならなかったら、Webブラウザが提供する「開発者ツール」を使ってデバッグしましょう。「開発者ツール」と聞いてピンとこない方は、本資料付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
