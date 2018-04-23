@@ -88,29 +88,48 @@ search.addEventListener('click', (e) => {
 })
 ```
 
-次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」と書かれた項目（図3）がありますので、それをクリックするとインクルードするURL入力欄が出てきます。4つのURLを入力してください。
+次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」と書かれた項目があります。
+
+▼図3 JSFiddleの画面左項目
+
+![img](https://docs.google.com/drawings/d/e/2PACX-1vTNdrHorO7Jl_u2fUFM0isId5UoK5K-1FCD3HIiPIlsbVYprNvcavQ-Czv6b2vwjkLLWmTU9NqOtxdd/pub?w=212&h=349)
+
+「Resources」をクリックすると、URL入力欄が出てきます。以下の4つのURLを一つずつ入力欄に入力し、「+」ボタンを押して確定させます。
 
 ```
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
+```
+
+```
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
+```
+
+```
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
+```
+
+```
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ```
 
-▼図3 「Resources」項目
+▼図4 「Resources」にURLを入力している様子
 
-![img](https://docs.google.com/drawings/d/e/2PACX-1vQJ8ocaoJ62gXCbtTcnqF3LwAUIpwViQJtfZhjPFhWJU1JO_aS-t22wi1RgEnFVk81UcXq6NUkrZPJh/pub?w=611&h=376)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vSNJBlbFF0q5zSlY3rCLt-qWt9MfjmtrxG80klOh71UW--FDv1bw5bWUc-Bbs57TrExLey6DmSJKNGs/pub?w=209&h=311)
+
+▼図5 URLの設定が全て完了した状態
+
+![img](https://docs.google.com/drawings/d/e/2PACX-1vQ2tUPOIbWxOXM21bqRc3Bb3ciRGjZoztu10CANE10lZeDpLADcKZB5A3qP-60DPKs7fEYoaZGTNKCe/pub?w=213&h=391)
 
 
 これで設定が完了しました。「Run」をクリックし、ソースコードを実行すると、画面右下に実行結果が表示されます。
 
-▼図4 「Run」を実行した状態
+▼図6 「Run」を実行した状態
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vR4_IiJPjADK4v6_mMvlOdm7yLJguYWS4aRsNfwL8gy0uu0S6IXrbA9QVFETApoJ2BI02R_wSwZTn5h/pub?w=1044&h=621)
 
 駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができます。
 
-▼図5 アプリケーション実行結果
+▼図7 アプリケーション実行結果
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTYE4DXFueLrsS-2ceyci4Fbgif59CLUS1Y4mDkxAV0mq8wcuS75vpffjwOd4uK0NhGr42dK9XoVDxz/pub?w=820&h=569)
 

@@ -10,7 +10,7 @@
 https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
-▼図6 WebブラウザでURLを開いた時の画面
+▼図8 WebブラウザでURLを開いた時の画面（XML）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS8UOsnDyXcou5LK_YKr3p1Cv27C6lVPJf8kiPNzdFcpwdabsbaVR0v7wSstO02H6s_aQj6La7e6imF/pub?w=928&h=532)
 
@@ -31,7 +31,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 何気なくアクセスしたURLは、APIのバージョン、レスポンスのデータフォーマット、APIの機能、そして、クエリパラメータで構成されています（図7）。
 
-▼図7 APIのリクエストURL構成
+▼図9 APIのリクエストURL構成
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vQsqQEht02Gg7cxKrZUVXPciadzzxb6S9VSAPdQ9Vep20VuuYgATIxt65tj7ypI1kkVx7xvJ4Sm2o-5/pub?w=1578&h=303)
 
@@ -49,6 +49,15 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
+{% hint %}
+WebブラウザでJSONのレスポンスデータを見たときに、図10のように見づらい場合、Webブラウザが提供する「ブラウザ拡張機能」を利用すると解決する場合があります。本書付録の「[]()」をご参考にしてください。
+
+▼図10 WebブラウザでURLを開いた時の画面（JSON）
+
+![img](https://docs.google.com/drawings/d/e/2PACX-1vTFzcm6K_fLyks2jJzbA60HYsSJKt_zKwcReRXVqMNh2uZAtFlwsmkgV-TDPazLxaRcvuD_L9Fz2dHv/pub?w=1088&h=511)
+
+{% endhint %}
+
 ▼表1 指定されたパラメータの説明
 
 |パラメータ|説明|
@@ -56,7 +65,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 |name|候補文字列から駅検索を行うためのパラメータです。|
 |type|駅の交通種別を指定するパラメータです。|
 
-▼図8 レスポンスデータの解説
+▼図10 レスポンスデータの解説
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRHuxBG5ycjHcqu5tQdKn_SkBA66lOe2C6PpeD85rc8FjgRDOUyoqA1uhKVuzaW8hz5FghYWtm9baq8/pub?w=783&h=566)
 
@@ -81,19 +90,19 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 所要時間の値は、`timeOther`、`timeOnBoard`、`timeWalk`の合計で求まります（図9）。
 
-▼図9 レスポンスデータの解説 所要時間
+▼図11 レスポンスデータの解説 所要時間
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTwB3eJ_QBoXI_nx-VVnMF2oR3rqfTXZYTbLa93MfBh8Nil3f-mByu8280rn9Nfmaal5jcHrNRBkz-W/pub?w=846&h=416)
 
 経路全体の運賃は、`kind`の値が`FareSummary`となっている`Oneway`の値です。経路の一区間の運賃は、`kind`の値が`Fare`となっている`Oneway`の値です（図10）。
 
-▼図10 レスポンスデータの解説 運賃
+▼図12 レスポンスデータの解説 運賃
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS_kwOKH6Tr053FD2lDzu9jznundjbIn0vSjodlV6W1M3Zvgdn7BVhjz49JxgqAUNOFYtWLc9Gu9Hy6/pub?w=892&h=411)
 
 `Point[0].Station.Name`、`Line.Name、Point[1].Station.Name`を交互に並べることで、経路を表現できます（図11）。
 
-▼図11 レスポンスデータの解説 経路表現
+▼図13 レスポンスデータの解説 経路表現
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRdrHjugJSU_7M8623Pizm95OYL8yjK9YPvIPbJwDzpZUiAQrj7u58hpLnFV8Pv2P5Ryj90E8bkOiaP/pub?w=1038&h=619)
 
