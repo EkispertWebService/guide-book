@@ -120,7 +120,6 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vQ2tUPOIbWxOXM21bqRc3Bb3ciRGjZoztu10CANE10lZeDpLADcKZB5A3qP-60DPKs7fEYoaZGTNKCe/pub?w=213&h=391)
 
-
 これで設定が完了しました。「Run」をクリックし、ソースコードを実行すると、画面右下に実行結果が表示されます。
 
 ▼図6 「Run」を実行した状態
