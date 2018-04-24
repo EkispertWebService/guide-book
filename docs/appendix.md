@@ -63,10 +63,10 @@ https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfn
 
 ### 開発者ツールを使いこなす {#devtool}
 
-今回実装したアプリケーションのように、JavaScriptを使ってWebブラウザ上で動くアプリケーションを作るなら、「開発者ツール」を使いこなしましょう。開発速度がグッとあがるはずです。
-開発者ツールとは、ブラウザに搭載されているデバッグツールです。「デベロッパーツール」とも呼ばれることがありますが、本書では「開発者ツール」と表記します。現在だとほぼ全てのWebブラウザで標準搭載されており、Windowsの場合は「F12」、Macの場合は「Option + Command + i」で起動できます。
+今回実装したアプリケーションのように、JavaScriptを使ってブラウザ上で動くアプリケーションを作るなら、「開発者ツール」を使いこなしましょう。開発速度がグッとあがるはずです。
+開発者ツールとは、ブラウザに搭載されているデバッグツールです。「デベロッパーツール」とも呼ばれることがありますが、本書では「開発者ツール」と表記します。現在だとほぼ全てのブラウザで標準搭載されており、Windowsの場合は「F12」、Macの場合は「Option + Command + i」で起動できます。
 
-▼図17 Webブラウザ上で開発者ツールを立ち上げた状態（Google Chrome）
+▼図17 ブラウザ上で開発者ツールを立ち上げた状態（Google Chrome）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRA6DSbkgyWfi_PjDghsvjZhXnU49zA77V3vZR16esp1zrz8xrFrQRRTgINHmwoNXJC6Srr5liWhmR0/pub?w=1393&h=784)
 

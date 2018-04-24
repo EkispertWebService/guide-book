@@ -4,13 +4,13 @@
 
 ## APIのリクエストURLを理解する {#url}
 
-次のURLをWebブラウザでアクセスしてみてください。「アクセスキー」の部分はご自身のアクセスキーに置き換えてください。
+次のURLをブラウザでアクセスしてみてください。「アクセスキー」の部分はご自身のアクセスキーに置き換えてください。
 
 ```
 https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
 ```
 
-▼図8 WebブラウザでURLを開いた時の画面（XML）
+▼図8 ブラウザでURLを開いた時の画面（XML）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS8UOsnDyXcou5LK_YKr3p1Cv27C6lVPJf8kiPNzdFcpwdabsbaVR0v7wSstO02H6s_aQj6La7e6imF/pub?w=928&h=532)
 
@@ -50,14 +50,14 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 ```
 
 {% hint %}
-WebブラウザでJSONのレスポンスデータを見たときに、図10のように改行が無く見づらいと感じたら、Webブラウザが提供する「ブラウザ拡張機能」を利用してみてください。
+ブラウザでJSONのレスポンスデータを見たときに、図10のように改行が無く見づらいと感じたら、ブラウザが提供する「ブラウザ拡張機能」を利用してみてください。
 本書付録の「[オススメのブラウザ拡張機能](/docs/appendix.md#extension)」をご参考にしてください。
 
-▼図10 WebブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能無し）
+▼図10 ブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能無し）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTFzcm6K_fLyks2jJzbA60HYsSJKt_zKwcReRXVqMNh2uZAtFlwsmkgV-TDPazLxaRcvuD_L9Fz2dHv/pub?w=1088&h=511)
 
-▼図11 WebブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能有り）
+▼図11 ブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能有り）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRXAUMEJqApI7PL1CObdEHUs4n41P5YU1qm2y3X5WyT6nEEHrhp6aUcnqWWhsgY3i4WNX0OTfkSxsSi/pub?w=1084&h=663)
 
