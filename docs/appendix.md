@@ -44,13 +44,13 @@ XMLを利用する際には、XMLパーサを利用することが多いかと�
 
 ##### ・JSON Formatter
 
-JSONデータがブラウザで見やすくなる拡張機能です。WebAPIのレスポンスをブラウザで確認する時に活用します。
+JSONデータがブラウザで見やすくなるブラウザ拡張機能です。WebAPIのレスポンスをブラウザで確認する時に活用します。
 
 https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
 
 ##### ・XML Tree
 
-XMLデータがブラウザで見やすくなる拡張機能です。さらに、XPathでXMLデータからデータを抽出することもできます。
+XMLデータがブラウザで見やすくなるブラウザ拡張機能です。さらに、XPathでXMLデータからデータを抽出することもできます。
 
 https://chrome.google.com/webstore/detail/xml-tree/gbammbheopgpmaagmckhpjbfgdfkpadb
 
