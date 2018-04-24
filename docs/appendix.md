@@ -34,6 +34,33 @@ XMLを利用する際には、XMLパーサを利用することが多いかと�
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vQInUlCEyqmk2MGZdXlTL1nO2tNRJynxbxMV9ZdZJvpx9BJISZ4m9KBkzw9Fzr2cpVMvv3cw0SD2d0X/pub?w=1394&h=755)
 
+### オススメのブラウザ拡張機能 {#extension}
+
+「ブラウザ拡張機能」とは、ブラウザの機能を拡張するためのプログラムです。
+「プラグイン」とも呼ばれることがありますが、本書では「ブラウザ拡張機能」と表記します。
+
+ブラウザ拡張機能のインストール方法や管理方法は割愛し、WebAPIを使って開発する上で便利なGoogle Chromeのブラウザ拡張機能を紹介します。
+ここでは、Google Chromeのブラウザ拡張機能を紹介しますが、他のブラウザでも類似するブラウザ拡張機能を提供していると思いますので、探してみてください。
+
+##### ・JSON Formatter
+
+JSONデータがブラウザで見やすくなる拡張機能です。WebAPIのレスポンスをブラウザで確認する時に活用します。
+
+https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+
+##### ・XML Tree
+
+XMLデータがブラウザで見やすくなる拡張機能です。さらに、XPathでXMLデータからデータを抽出することもできます。
+
+https://chrome.google.com/webstore/detail/xml-tree/gbammbheopgpmaagmckhpjbfgdfkpadb
+
+##### ・ウェブページ全体をスクリーンショット - FireShot
+
+ページ全体をスクリーンショット出来るブラウザ拡張機能です。
+実装するアプリケーションのレビューなどで活用できます。
+
+https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
+
 ### 開発者ツールを使いこなす {#devtool}
 
 今回実装したアプリケーションのように、JavaScriptを使ってWebブラウザ上で動くアプリケーションを作るなら、「開発者ツール」を使いこなしましょう。開発速度がグッとあがるはずです。

@@ -16,6 +16,7 @@
     * [課金の対象を知る](/docs/appendix.md#charge)
   * [開発お役立ちツール](/docs/appendix.md#tools)
     * [APIの仕様理解を深める「API Checker」](/docs/appendix.md#apichecker)
+    * [オススメのブラウザ拡張機能](/docs/appendix.md#extension)
     * [開発者ツールを使いこなす](/docs/appendix.md#devtool)
   * [リンク集](/docs/appendix.md#link)
   * [スタンダードプラン10%OFFクーポンコード](/docs/appendix.md#coupon)
