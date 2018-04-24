@@ -70,7 +70,7 @@ WebブラウザでJSONのレスポンスデータを見たときに、図10の�
 |name|候補文字列から駅検索を行うためのパラメータです。|
 |type|駅の交通種別を指定するパラメータです。|
 
-▼図11 レスポンスデータの解説
+▼図12 レスポンスデータの解説
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRHuxBG5ycjHcqu5tQdKn_SkBA66lOe2C6PpeD85rc8FjgRDOUyoqA1uhKVuzaW8hz5FghYWtm9baq8/pub?w=783&h=566)
 
@@ -93,21 +93,21 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 レスポンスには、新宿駅から渋谷駅までの、平均待ち時間による探索での経路探索結果が返ってきます。アプリケーションでどのようにレスポンスデータが使われているのか、いくつかピックアップして解説します。
 
-所要時間の値は、`timeOther`、`timeOnBoard`、`timeWalk`の合計で求まります（図12）。
+所要時間の値は、`timeOther`、`timeOnBoard`、`timeWalk`の合計で求まります（図13）。
 
-▼図12 レスポンスデータの解説 所要時間
+▼図13 レスポンスデータの解説 所要時間
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTwB3eJ_QBoXI_nx-VVnMF2oR3rqfTXZYTbLa93MfBh8Nil3f-mByu8280rn9Nfmaal5jcHrNRBkz-W/pub?w=846&h=416)
 
-経路全体の運賃は、`kind`の値が`FareSummary`となっている`Oneway`の値です。経路の一区間の運賃は、`kind`の値が`Fare`となっている`Oneway`の値です（図13）。
+経路全体の運賃は、`kind`の値が`FareSummary`となっている`Oneway`の値です。経路の一区間の運賃は、`kind`の値が`Fare`となっている`Oneway`の値です（図14）。
 
-▼図13 レスポンスデータの解説 運賃
+▼図14 レスポンスデータの解説 運賃
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS_kwOKH6Tr053FD2lDzu9jznundjbIn0vSjodlV6W1M3Zvgdn7BVhjz49JxgqAUNOFYtWLc9Gu9Hy6/pub?w=892&h=411)
 
-`Point[0].Station.Name`、`Line.Name、Point[1].Station.Name`を交互に並べることで、経路を表現できます（図14）。
+`Point[0].Station.Name`、`Line.Name、Point[1].Station.Name`を交互に並べることで、経路を表現できます（図15）。
 
-▼図14 レスポンスデータの解説 経路表現
+▼図15 レスポンスデータの解説 経路表現
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRdrHjugJSU_7M8623Pizm95OYL8yjK9YPvIPbJwDzpZUiAQrj7u58hpLnFV8Pv2P5Ryj90E8bkOiaP/pub?w=1038&h=619)
 

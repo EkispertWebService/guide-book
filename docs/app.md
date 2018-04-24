@@ -133,7 +133,7 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTYE4DXFueLrsS-2ceyci4Fbgif59CLUS1Y4mDkxAV0mq8wcuS75vpffjwOd4uK0NhGr42dK9XoVDxz/pub?w=820&h=569)
 
 {% hint %}
-アプリケーションが図5のような挙動にならなかったら、Webブラウザが提供する「開発者ツール」を使ってデバッグしましょう。「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
+アプリケーションが図7のような挙動にならなかったら、Webブラウザが提供する「開発者ツール」を使ってデバッグしましょう。「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
 {% endhint %}
 
 
