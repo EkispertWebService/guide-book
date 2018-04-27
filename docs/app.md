@@ -14,14 +14,14 @@
 数営業日後に、登録したメールアドレス宛てにアクセスキーが届きます。
 
 アクセスキーが取得できたところで、早速実装に移ります。最初から実装するのも良いですが、ここでは「HTML5インターフェースサンプル」[^3]を使い、シンプルでかつ簡単に実装していきます。HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。
-また、本書では、Webアプリケーションをサクッと動かすのに便利なツール「JSFiddle」[^4]を使って説明していきます。会員登録不要で、ブラウザ上でHTML、JavaScriptコードを実行し、動作確認ができます。JSFiddleにアクセスすると、画面上に4つの枠が表示されます。左上がHTML、左下がJavaScript、右上がCSS、そして右下にそれらを組み合わせた結果が表示されます（図2）。
+また、本書では、Webアプリケーションをサクッと動かすのに便利なツール「JSFiddle」[^4]を使って説明していきます。会員登録せずに、ブラウザ上でHTML、JavaScriptコードを実行し、動作確認ができます。JSFiddleにアクセスすると、画面上に4つの枠が表示されます。左上がHTML、左下がJavaScript、右上がCSS、そして右下にそれらを組み合わせた結果が表示されます（図2）。
 
 ▼図2 JSFiddleの画面
 
 ![img2](https://docs.google.com/drawings/d/e/2PACX-1vSuw02x_PKsm_w6BSAp7rNB4qLTY-jwtNNFwJlqIm_-yGgq_VhFl9Nz38BMV4CBLeYZn6eZStVmZfpR/pub?w=1392&h=868)
 
 
-HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScriptに関しては、コード例の中にアクセスキーを入力する箇所があります。
+HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScriptに関しては、コード例の中にアクセスキーを入力する箇所がありますので、ご自身のアクセスキーに置き換えてください。
 
 ▼リスト1 HTMLソースコード
 
@@ -126,7 +126,7 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vR4_IiJPjADK4v6_mMvlOdm7yLJguYWS4aRsNfwL8gy0uu0S6IXrbA9QVFETApoJ2BI02R_wSwZTn5h/pub?w=1044&h=621)
 
-駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができます。
+駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができました。
 
 ▼図7 アプリケーション実行結果
 
