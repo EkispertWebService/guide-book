@@ -7,7 +7,7 @@
   * [APIのリクエストURLを理解する](/docs/api.md#url)
   * [レスポンスのデータフォーマット](/docs/api.md#format)
   * [APIの詳しい仕様](/docs/api.md#detail)
-    * [駅簡易API](/docs/api.md#station-light)
+    * [駅簡易情報API](/docs/api.md#station-light)
     * [経路探索API](/docs/api.md#search-course-extreme)
 * [さいごに](/docs/end.md)
 * [付録](/docs/appendix.md)

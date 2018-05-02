@@ -42,7 +42,7 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アク�
 
 ## APIの詳しい仕様 {#detail}
 
-### 駅簡易API {#station-light}
+### 駅簡易情報API {#station-light}
 
 駅簡易情報API(/station/light)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの駅入力フォームの裏側で利用されている機能です。以下のURLにアクセスします。
 
