@@ -66,8 +66,6 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 
 {% endhint %}
 
-▼表1 指定されたパラメータの説明
-
 |パラメータ|説明|
 |---|---|
 |name|候補文字列から駅検索を行うためのパラメータです。|
@@ -87,8 +85,6 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 ```
 https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
 ```
-
-▼表2 指定されたパラメータの説明
 
 |パラメータ|説明|
 |---|---|
