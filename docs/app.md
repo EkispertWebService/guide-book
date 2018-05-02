@@ -141,7 +141,7 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 
 {% hint %}
 アプリケーションが意図した挙動にならなかったら、ブラウザが提供する「開発者ツール」を使ってデバッグしましょう。
-「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
+「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/tools.md#devtool)」をご参考にしてください。
 {% endhint %}
 
 
