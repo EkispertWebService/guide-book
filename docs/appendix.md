@@ -30,9 +30,10 @@ XMLを利用する際には、XMLパーサを利用することが多いかと�
 
 駅すぱあとWebサービスのドキュメントサイトでは、APIを試すのにぴったりなツール「API Chercker」[^2]を用意しています。これは、APIの仕様を調べるだけではなく、APIをインタラクティブに呼び出し挙動を試すことができるため、APIの理解を深めることができます。
 
-▼図16 ドキュメントサイトで用意しているAPI Checkerの画面
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vQInUlCEyqmk2MGZdXlTL1nO2tNRJynxbxMV9ZdZJvpx9BJISZ4m9KBkzw9Fzr2cpVMvv3cw0SD2d0X/pub?w=1394&h=755)
+
+<p class="caption">ドキュメントサイトで用意しているAPI Checkerの画面</p>
 
 ### オススメのブラウザ拡張機能 {#extension}
 
@@ -66,21 +67,24 @@ https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfn
 今回実装したアプリケーションのように、JavaScriptを使ってブラウザ上で動くアプリケーションを作るなら、「開発者ツール」を使いこなしましょう。開発速度がグッとあがるはずです。
 開発者ツールとは、ブラウザに搭載されているデバッグツールです。「デベロッパーツール」とも呼ばれることがありますが、本書では「開発者ツール」と表記します。現在だとほぼ全てのブラウザで標準搭載されており、Windowsの場合は「F12」、Macの場合は「Option + Command + i」で起動できます。
 
-▼図17 ブラウザ上で開発者ツールを立ち上げた状態（Google Chrome）
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRA6DSbkgyWfi_PjDghsvjZhXnU49zA77V3vZR16esp1zrz8xrFrQRRTgINHmwoNXJC6Srr5liWhmR0/pub?w=1393&h=784)
 
-ここからは、Google Chromeを例に説明します。開発者ツールの「Console」パネルは、JavaScriptのデバッグに役立ちます。アプリケーションが意図しない挙動をしている時は、まずConsoleパネルでエラーが発生していないか確認しましょう。図18は、JavaScriptコード内でシンタックスエラーが発生している例です。
+<p class="caption">ブラウザ上で開発者ツールを立ち上げた状態（Google Chrome）</p>
 
-▼図18 開発者ツールのConsoleパネル
+ここからは、Google Chromeを例に説明します。開発者ツールの「Console」パネルは、JavaScriptのデバッグに役立ちます。アプリケーションが意図しない挙動をしている時は、まずConsoleパネルでエラーが発生していないか確認しましょう。
+
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTXGa1E75cNr9On3Q-03Paf9JlUomwx3ta1pzSda0uIBVOtwIrdZS-qtmB7EjA1RHpdsxlMr95pi7wI/pub?w=1392&h=641)
 
+<p class="caption">開発者ツールのConsoleパネル（Javascriptコード内でシンタックスエラーが発生している場面）</p>
+
 「Network」パネルは、表示しているページで行うHTTP通信が一覧として現れ、リクエスト、レスポンスの内容やアクセスの状況を見ることができます。つまり、駅すぱあとWebサービスへのアクセスに成功しているか、どんなやりとりがされているか確認できます。
 
-▼図19 開発者ツールのNetworkパネル
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vSAYbY59MLD_lIQdp3cb1BJ7KQuVXBvjSIKes-Uz0OUJ4h08SWc4ohiC__1eBZgoHRqKGZwdhJ6BGgy/pub?w=1393&h=660)
+
+<p class="caption">開発者ツールのNetworkパネル</p>
 
 詳細な使い方に関してもっと知りたくなったかと思いますが、インターネット上にたくさんの情報が公開されているので、ここでは割愛します。
 興味を持って探求することはエンジニアとしてのスキルアップに繋がるはずです。ぜひ調べてみてください。

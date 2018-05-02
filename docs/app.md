@@ -4,9 +4,10 @@
 
 入力された文字列から駅を確定し、経路探索を行い結果を表示する簡単なWebアプリケーションを作ります。
 
-▼図1 実装するアプリケーション画面イメージ
 
 ![img1](https://docs.google.com/drawings/d/e/2PACX-1vQEwohVNihVrcpstBEzVi1lXT_rjA_MybKX-3sSK-R2FBz1kklEppFinA5zA2rYx_QU8Ebzq5xunqG5/pub?w=1240&h=884)
+
+<p class="caption">実装するアプリケーション画面イメージ</p>
 
 
 駅すぱあとWebサービスには、無料で使える「フリープラン」と、全ての機能が使える「スタンダードプラン」[^1]の2つのプランがあります。
@@ -14,11 +15,12 @@
 数営業日後に、登録したメールアドレス宛てにアクセスキーが届きます。
 
 アクセスキーが取得できたところで、早速実装に移ります。最初から実装するのも良いですが、ここでは「HTML5インターフェースサンプル」[^3]を使い、シンプルでかつ簡単に実装していきます。HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。
-また、本書では、Webアプリケーションをサクッと動かすのに便利なツール「JSFiddle」[^4]を使って説明していきます。会員登録せずに、ブラウザ上でHTML、JavaScriptコードを実行し、動作確認ができます。JSFiddleにアクセスすると、画面上に4つの枠が表示されます。左上がHTML、左下がJavaScript、右上がCSS、そして右下にそれらを組み合わせた結果が表示されます（図2）。
+また、本書では、Webアプリケーションをサクッと動かすのに便利なツール「JSFiddle」[^4]を使って説明していきます。会員登録せずに、ブラウザ上でHTML、JavaScriptコードを実行し、動作確認ができます。JSFiddleにアクセスすると、画面上に4つの枠が表示されます。左上がHTML、左下がJavaScript、右上がCSS、そして右下にそれらを組み合わせた結果が表示されます。
 
-▼図2 JSFiddleの画面
 
 ![img2](https://docs.google.com/drawings/d/e/2PACX-1vSuw02x_PKsm_w6BSAp7rNB4qLTY-jwtNNFwJlqIm_-yGgq_VhFl9Nz38BMV4CBLeYZn6eZStVmZfpR/pub?w=1392&h=868)
+
+<p class="caption">JSFiddleの画面</p>
 
 
 HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScriptに関しては、コード例の中にアクセスキーを入力する箇所がありますので、ご自身のアクセスキーに置き換えてください。
@@ -90,9 +92,10 @@ search.addEventListener('click', (e) => {
 
 次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」と書かれた項目があります。
 
-▼図3 JSFiddleの画面左項目
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTNdrHorO7Jl_u2fUFM0isId5UoK5K-1FCD3HIiPIlsbVYprNvcavQ-Czv6b2vwjkLLWmTU9NqOtxdd/pub?w=212&h=349)
+
+<p class="caption">JSFiddleの画面左項目</p>
 
 「Resources」をクリックすると、URL入力欄が出てきます。以下の4つのURLを一つずつ入力欄に入力し、「+」ボタンを押して確定させます。
 
@@ -112,28 +115,33 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
 https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 ```
 
-▼図4 「Resources」にURLを入力している様子
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vSNJBlbFF0q5zSlY3rCLt-qWt9MfjmtrxG80klOh71UW--FDv1bw5bWUc-Bbs57TrExLey6DmSJKNGs/pub?w=209&h=311)
 
-▼図5 URLの設定が全て完了した状態
+<p class="caption">「Resources」にURLを入力している様子</p>
+
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vQ2tUPOIbWxOXM21bqRc3Bb3ciRGjZoztu10CANE10lZeDpLADcKZB5A3qP-60DPKs7fEYoaZGTNKCe/pub?w=213&h=391)
 
+<p class="caption">URLの設定が全て完了した状態</p>
+
 これで設定が完了しました。「Run」をクリックし、ソースコードを実行すると、画面右下に実行結果が表示されます。
 
-▼図6 「Run」を実行した状態
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vR4_IiJPjADK4v6_mMvlOdm7yLJguYWS4aRsNfwL8gy0uu0S6IXrbA9QVFETApoJ2BI02R_wSwZTn5h/pub?w=1044&h=621)
 
+<p class="caption">「Run」を実行した状態</p>
+
 駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができました。
 
-▼図7 アプリケーション実行結果
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTYE4DXFueLrsS-2ceyci4Fbgif59CLUS1Y4mDkxAV0mq8wcuS75vpffjwOd4uK0NhGr42dK9XoVDxz/pub?w=820&h=569)
 
+<p class="caption">アプリケーション実行結果</p>
+
 {% hint %}
-アプリケーションが図7のような挙動にならなかったら、ブラウザが提供する「開発者ツール」を使ってデバッグしましょう。「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
+アプリケーションが意図した挙動にならなかったら、ブラウザが提供する「開発者ツール」を使ってデバッグしましょう。
+「開発者ツール」と聞いてピンとこない方は、本書付録の「[開発者ツールを使いこなす](/docs/appendix.md#devtool)」をご参考にしてください。
 {% endhint %}
 
 
