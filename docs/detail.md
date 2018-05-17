@@ -51,21 +51,21 @@ https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&search
 
 レスポンスには、新宿駅から渋谷駅までの、平均待ち時間による探索での経路探索結果が返ってきます。アプリケーションでどのようにレスポンスデータが使われているのか、いくつかピックアップして解説します。
 
-所要時間の値は、`timeOther`、`timeOnBoard`、`timeWalk`の合計で求まります。
+所要時間の値は、`$.ResultSet.Course[0].Route.timeOther`、`$.ResultSet.Course[0].Route.timeOnBoard`、`$.ResultSet.Course[0].Route.timeWalk`の合計で求まります。
 
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vTwB3eJ_QBoXI_nx-VVnMF2oR3rqfTXZYTbLa93MfBh8Nil3f-mByu8280rn9Nfmaal5jcHrNRBkz-W/pub?w=846&h=416)
 
 <p class="caption">レスポンスデータの解説 所要時間</p>
 
-経路全体の運賃は、`kind`の値が`FareSummary`となっている`Oneway`の値です。経路の一区間の運賃は、`kind`の値が`Fare`となっている`Oneway`の値です。
+経路全体の運賃は、`$.ResultSet.Course[0].Price[0].kind`の値が`FareSummary`となっている`$.ResultSet.Course[0].Price[0].Oneway`の値です。経路の一区間の運賃は、`$.ResultSet.Course[0].Price[0].kind`の値が`Fare`となっている`$.ResultSet.Course[0].Price[0].Oneway`の値です。
 
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS_kwOKH6Tr053FD2lDzu9jznundjbIn0vSjodlV6W1M3Zvgdn7BVhjz49JxgqAUNOFYtWLc9Gu9Hy6/pub?w=892&h=411)
 
 <p class="caption">レスポンスデータの解説 運賃</p>
 
-`Point[0].Station.Name`、`Line.Name、Point[1].Station.Name`を交互に並べることで、経路を表現できます。
+`$.ResultSet.Course[0].Route.Point[0].Station.Name`、`$.ResultSet.Course[0].Line.Name`、`$.ResultSet.Course[0].Point[1].Station.Name`を交互に並べることで、経路を表現できます。
 
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vRdrHjugJSU_7M8623Pizm95OYL8yjK9YPvIPbJwDzpZUiAQrj7u58hpLnFV8Pv2P5Ryj90E8bkOiaP/pub?w=1038&h=619)
