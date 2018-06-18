@@ -9,25 +9,86 @@
 
 <p class="caption">実装するアプリケーション画面イメージ</p>
 
+駅すぱあとWebサービスには、無料で使える「フリープラン」[^1]と、全ての機能が使える「スタンダードプラン」[^2]の2つのプランがあります。
+今回はフリープランで使える機能を用いてアプリケーションを作成します。
 
-駅すぱあとWebサービスには、無料で使える「フリープラン」と、全ての機能が使える「スタンダードプラン」[^1]の2つのプランがあります。
-今回はスタンダードプランで使える機能でアプリケーションを作っていくので、スタンダードプランが90日間無料で利用できる評価版の申し込み[^2]を行います。
-数営業日後に、登録したメールアドレス宛てにアクセスキーが届きます。
+駅すぱあとWebサービスをご利用いただくにはアクセスキー[^3]が必要ですが、本書籍をお読みいただいている皆さまがその場で試していただけるようにアクセスキーを用意しました。
 
-アクセスキーが取得できたところで、早速実装に移ります。最初から実装するのも良いですが、ここでは「HTML5インターフェースサンプル」[^3]を使い、シンプルでかつ簡単に実装していきます。HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。
-また、本書では、Webアプリケーションをサクッと動かすのに便利なツール「JSFiddle」[^4]を使って説明していきます。会員登録せずに、ブラウザ上でHTML、JavaScriptコードを実行し、動作確認ができます。JSFiddleにアクセスすると、画面上に4つの枠が表示されます。左上がHTML、左下がJavaScript、右上がCSS、そして右下にそれらを組み合わせた結果が表示されます。
+書籍限定 お試し用アクセスキー：**LE_EeMdKVHwJQSen**  
+※ フリープランの機能をお試しいただけるアクセスキーです。
 
+では早速実装にうつります。
 
-![img2](https://docs.google.com/drawings/d/e/2PACX-1vSuw02x_PKsm_w6BSAp7rNB4qLTY-jwtNNFwJlqIm_-yGgq_VhFl9Nz38BMV4CBLeYZn6eZStVmZfpR/pub?w=1392&h=868)
+`index.html`など、適当なファイルを作成し、HTMLをリスト1のように入力します。
 
-<p class="caption">JSFiddleの画面</p>
-
-
-HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScriptに関しては、コード例の中にアクセスキーを入力する箇所がありますので、ご自身のアクセスキーに置き換えてください。
+Webアプリケーションをサクッと動かすのに便利なツール「JS Bin」[^4]、「JSFiddle」[^5]などをご利用いただくのも手です。
 
 ▼リスト1 HTMLソースコード
 
 ```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>駅すぱあとWebサービス 経路探索サンプルアプリ</title>
+  <script src="https://cdn.rawgit.com/EkispertWebService/GUI/84587/expGuiStation/expGuiStation.js"></script>
+  <script src="https://cdn.rawgit.com/EkispertWebService/GUI/84587/expGuiCourseLight/expGuiCourseLight.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/EkispertWebService/GUI/84587/expGuiStation/expCss/expGuiStation.css" />
+</head>
+<script>
+var accessKey = "LE_EeMdKVHwJQSen"; // お試し用のアクセスキー
+var depStationApp;
+var arrStationApp;
+var courseLight;
+
+function init() {
+  depStationApp = new expGuiStation(document.getElementById("depStation"));
+  depStationApp.setConfigure("key", accessKey);
+  depStationApp.setConfigure("ssl", true);
+  depStationApp.dispStation();
+
+  arrStationApp = new expGuiStation(document.getElementById("arrStation"));
+  arrStationApp.setConfigure("key", accessKey);
+  arrStationApp.setConfigure("ssl", true);
+  arrStationApp.dispStation();
+
+  courseLight = new expGuiCourseLight();
+  courseLight.setConfigure("key", accessKey);
+  courseLight.setConfigure("ssl", true);
+}
+
+// 探索ボタンの動作
+window.onload = function() {
+  var search = document.getElementById('search');
+  search.addEventListener('click', (e) => {
+
+    // 候補を閉じる
+    depStationApp.closeStationList();
+    arrStationApp.closeStationList();
+
+    var searchObj = courseLight.createSearchInterface();
+
+    // 出発着の設定
+    searchObj.setFrom(depStationApp.getStationCode());
+    searchObj.setTo(arrStationApp.getStationCode());
+
+    // 探索を実行
+    courseLight.search(searchObj, function(isSuccess) {
+      if (!isSuccess) {
+        alert("探索結果が取得できませんでした");
+      } else {
+        document.getElementById("ekispertUrl").textContent = "駅すぱあと for web の探索結果を表示する";
+        document.getElementById("ekispertUrl").href = courseLight.getResourceURI();
+      }
+    });
+  })
+};
+
+window.addEventListener('load', init);
+
+</script>
+<body>
 <div>
   出発地
   <div id="depStation"></div>
@@ -37,105 +98,19 @@ HTML、JavaScriptをリスト1、リスト2のように入力します。JavaScr
   <div id="arrStation"></div>
 </div>
 <button id="search">探索</button>
-<div id="result"></div>
+<a id="ekispertUrl" href="" target="_blank"></a>
+</body>
+</html>
 ```
 
-▼リスト2 JavaScriptソースコード
+コードの中身を見ると、
+`<script src="https://cdn.rawgit.com/EkispertWebService/GUI/84587/expGuiStation/expGuiStation.js"></script>`など、いくつかの外部ファイルをインクルードしていますが、これは「HTML5インターフェースサンプル」[^6]です。
+HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。
 
-```JavaScript
-var accessKey = "アクセスキー"; // 自身が所有するアクセスキーに書き換えてください。
-var depStationApp; // 駅名入力パーツ#出発
-var arrStationApp; // 駅名入力パーツ#到着
-var resultApp; //経路結果表示パーツ
+ファイルに入力し終えたら、ファイルをブラウザで開いてください。
+駅が検索でき、経路探索結果のURLが表示されるアプリケーションができました。
 
-// 駅名入力パーツ#出発 初期化
-depStationApp = new expGuiStation(document.getElementById("depStation"));
-depStationApp.setConfigure("key", accessKey);
-depStationApp.setConfigure("ssl", true);
-depStationApp.dispStation();
-
-// 駅名入力パーツ#到着 初期化
-arrStationApp = new expGuiStation(document.getElementById("arrStation"));
-arrStationApp.setConfigure("key", accessKey);
-arrStationApp.setConfigure("ssl", true);
-arrStationApp.dispStation();
-
-// 経路表示パーツ初期化
-resultApp = new expGuiCourse(document.getElementById("result"));
-resultApp.setConfigure("key", accessKey);
-resultApp.setConfigure("ssl", true);
-
-// 探索ボタンの動作
-var search = document.getElementById('search');
-search.addEventListener('click', (e) => {
-
-  // 候補を閉じる
-  depStationApp.closeStationList();
-  arrStationApp.closeStationList();
-
-  var searchObject = resultApp.createSearchInterface();
-
-  // 探索種別の設定
-  searchObject.setSearchType('plain');
-
-  // 出発着の設定
-  searchObject.setViaList(depStationApp.getStationCode() + ":" + arrStationApp.getStationCode());
-
-  // 探索を実行
-  resultApp.search(searchObject, function(isSuccess) {
-    if (!isSuccess) {
-      alert("探索結果が取得できませんでした");
-    }
-  });
-})
-```
-
-次に、HTML5インターフェースサンプルを読み込みます。JSFiddleの画面左に「Resources」と書かれた項目があります。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vTNdrHorO7Jl_u2fUFM0isId5UoK5K-1FCD3HIiPIlsbVYprNvcavQ-Czv6b2vwjkLLWmTU9NqOtxdd/pub?w=212&h=349)
-
-<p class="caption">JSFiddleの画面左項目</p>
-
-「Resources」をクリックすると、URL入力欄が出てきます。以下の4つのURLを一つずつ入力欄に入力し、「+」ボタンを押して確定させます。
-
-```
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expCss/expGuiStation.css
-```
-
-```
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expCss/expGuiCourse.css
-```
-
-```
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiStation/expGuiStation.js
-```
-
-```
-https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
-```
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vSNJBlbFF0q5zSlY3rCLt-qWt9MfjmtrxG80klOh71UW--FDv1bw5bWUc-Bbs57TrExLey6DmSJKNGs/pub?w=209&h=311)
-
-<p class="caption">「Resources」にURLを入力している様子</p>
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vQ2tUPOIbWxOXM21bqRc3Bb3ciRGjZoztu10CANE10lZeDpLADcKZB5A3qP-60DPKs7fEYoaZGTNKCe/pub?w=213&h=391)
-
-<p class="caption">URLの設定が全て完了した状態</p>
-
-これで設定が完了しました。「Run」をクリックし、ソースコードを実行すると、画面右下に実行結果が表示されます。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vR4_IiJPjADK4v6_mMvlOdm7yLJguYWS4aRsNfwL8gy0uu0S6IXrbA9QVFETApoJ2BI02R_wSwZTn5h/pub?w=1044&h=621)
-
-<p class="caption">「Run」を実行した状態</p>
-
-駅が検索でき、経路探索結果が表示されるアプリケーションの実装ができました。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vTYE4DXFueLrsS-2ceyci4Fbgif59CLUS1Y4mDkxAV0mq8wcuS75vpffjwOd4uK0NhGr42dK9XoVDxz/pub?w=820&h=569)
+![img](https://docs.google.com/drawings/d/e/2PACX-1vQh-94YMWsKBawQb6pyqJCts6KosxU98mSzPO5S02O3kYmgl4wm07hTlPBzV0r8vYrraGW8Iu5p3NYt/pub?w=978&h=827)
 
 <p class="caption">アプリケーション実行結果</p>
 
@@ -146,7 +121,9 @@ https://rawgit.com/EkispertWebService/GUI/ed686b/expGuiCourse/expGuiCourse.js
 
 
 ## 脚注
-[^1]: スタンダードプランは法人のお客様のみご利用いただけます。
-[^2]: スタンダードプラン評価版申し込みページ https://ekiworld.net/trial/index.php?case=6
-[^3]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI
-[^4]: JSFiddle https://jsfiddle.net/
+[^1]: 駅すぱあとWebサービス フリープラン https://ekiworld.net/service/lp/webservice/
+[^2]: 駅すぱあとWebサービス スタンダードプラン https://ekiworld.net/service/sier/webservice/index.html <br>※ スタンダードプランは法人のお客様のみご利用いただけます。
+[^3]: Webから申し込みいただくことで、アクセスキーを取得できます。 <br>フリープラン: https://ekiworld.net/free_provision/index.php <br>スタンダードプラン: https://ekiworld.net/trial/index.php?case=6
+[^4]: JS Bin https://jsbin.com/
+[^5]: JSFiddle https://jsfiddle.net/
+[^6]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI

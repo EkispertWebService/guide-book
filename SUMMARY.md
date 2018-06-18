@@ -8,7 +8,6 @@
   * [レスポンスのデータフォーマット](/docs/format.md)
   * [APIの詳しい仕様](/docs/detail.md)
     * [駅簡易情報API](/docs/detail.md#station-light)
-    * [経路探索API](/docs/detail.md#search-course-extreme)
 * [さいごに](/docs/end.md)
 * [付録](/docs/appendix.md)
   * [開発を始める前に](/docs/before.md)

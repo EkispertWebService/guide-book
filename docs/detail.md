@@ -5,7 +5,7 @@
 駅簡易情報API(/station/light)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの駅入力フォームの裏側で利用されている機能です。以下のURLにアクセスします。
 
 ```
-https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アクセスキー
+https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMdKVHwJQSen
 ```
 
 {% hint %}
@@ -36,46 +36,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=アク�
 
 駅すぱあとが持つ駅には、「駅コード」[^1]と呼ばれるユニークな値が振られています。駅コードは、駅名変更などに関わらず基本的に不変ですので、保存を前提とした利用は駅コードの利用が推奨されます。「都道府県コード」[^2]とは、駅すぱあとWebサービスで定める都道府県に紐づいたコードです。
 
-### 経路探索API {#search-course-extreme}
-
-経路探索API(/search/course/extreme)は、「[アプリケーションを作ってみよう](/docs/app.md)」で作成したアプリケーションの探索ボタンの裏側で利用されている機能です。以下のURLにアクセスしてみてください。
-
-```
-https://api.ekispert.jp/v1/json/search/course/extreme?viaList=22741:22715&searchType=plain&key=アクセスキー
-```
-
-|パラメータ|説明|
-|---|---|
-|viaList|出発地、経由地、到着地を指定するパラメータです。それぞれをカンマ「:」で区切ります。「22741」は新宿駅の駅コード、「22715」は渋谷駅の駅コードを表しています。viaListには、駅コード以外にも、駅の名称、緯度経度、住所などを指定することができます。|
-|searchType|探索種別[^3]を指定するパラメータです。駅すぱあとWebサービスでは、ダイヤデータを使う探索（ダイヤによる探索[^4]）と、平日日中の平均的な所要時間を利用した探索（平均待ち時間による探索[^5]）の二つの探索方法があり、それをさらに細分化したものが探索種別となります。|
-
-レスポンスには、新宿駅から渋谷駅までの、平均待ち時間による探索での経路探索結果が返ってきます。アプリケーションでどのようにレスポンスデータが使われているのか、いくつかピックアップして解説します。
-
-所要時間の値は、`$.ResultSet.Course[0].Route.timeOther`、`$.ResultSet.Course[0].Route.timeOnBoard`、`$.ResultSet.Course[0].Route.timeWalk`の合計で求まります。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vTwB3eJ_QBoXI_nx-VVnMF2oR3rqfTXZYTbLa93MfBh8Nil3f-mByu8280rn9Nfmaal5jcHrNRBkz-W/pub?w=846&h=416)
-
-<p class="caption">レスポンスデータの解説 所要時間</p>
-
-経路全体の運賃は、`$.ResultSet.Course[0].Price[0].kind`の値が`FareSummary`となっている`$.ResultSet.Course[0].Price[0].Oneway`の値です。経路の一区間の運賃は、`$.ResultSet.Course[0].Price[0].kind`の値が`Fare`となっている`$.ResultSet.Course[0].Price[0].Oneway`の値です。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vS_kwOKH6Tr053FD2lDzu9jznundjbIn0vSjodlV6W1M3Zvgdn7BVhjz49JxgqAUNOFYtWLc9Gu9Hy6/pub?w=892&h=411)
-
-<p class="caption">レスポンスデータの解説 運賃</p>
-
-`$.ResultSet.Course[0].Route.Point[0].Station.Name`、`$.ResultSet.Course[0].Line.Name`、`$.ResultSet.Course[0].Point[1].Station.Name`を交互に並べることで、経路を表現できます。
-
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vRdrHjugJSU_7M8623Pizm95OYL8yjK9YPvIPbJwDzpZUiAQrj7u58hpLnFV8Pv2P5Ryj90E8bkOiaP/pub?w=1038&h=619)
-
-<p class="caption">レスポンスデータの解説 経路表現</p>
-
 
 ## 脚注
-[^1]: 駅コード http://docs.ekispert.com/v1/dictionary/station-code/
-[^2]: 都道府県コード http://docs.ekispert.com/v1/dictionary/prefecture-code/
-[^3]: 探索種別 http://docs.ekispert.com/v1/dictionary/search-type/
-[^4]: ダイヤによる探索 http://docs.ekispert.com/v1/dictionary/search-course-by-diagram/
-[^5]: 平均待ち時間による探索 http://docs.ekispert.com/v1/dictionary/search-course-by-average-time/
+[^1]: 駅コード http://docs.ekispert.com/v1/le/dictionary/station-code/
+[^2]: 都道府県コード http://docs.ekispert.com/v1/le/dictionary/prefecture-code/

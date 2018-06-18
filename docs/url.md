@@ -1,9 +1,9 @@
 ## APIのリクエストURLを理解する {#url}
 
-次のURLをブラウザでアクセスしてみてください。「アクセスキー」の部分はご自身のアクセスキーに置き換えてください。
+次のURLをブラウザでアクセスしてみてください。
 
 ```
-https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=アクセスキー
+https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=LE_EeMdKVHwJQSen
 ```
 
 ![img](https://docs.google.com/drawings/d/e/2PACX-1vS8UOsnDyXcou5LK_YKr3p1Cv27C6lVPJf8kiPNzdFcpwdabsbaVR0v7wSstO02H6s_aQj6La7e6imF/pub?w=928&h=532)
