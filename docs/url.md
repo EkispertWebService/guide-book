@@ -5,8 +5,7 @@
 ```
 https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=LE_EeMdKVHwJQSen
 ```
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vS8UOsnDyXcou5LK_YKr3p1Cv27C6lVPJf8kiPNzdFcpwdabsbaVR0v7wSstO02H6s_aQj6La7e6imF/pub?w=928&h=532)
+![img](/img/8.png)
 
 <p class="caption">ブラウザでURLを開いた時の画面（XML）</p>
 
@@ -27,6 +26,6 @@ https://api.ekispert.jp/v1/xml/station/light?name=渋谷&type=train&key=LE_EeMdK
 
 何気なくアクセスしたURLは、APIのバージョン、レスポンスのデータフォーマット、APIの機能、そして、クエリパラメータで構成されています。
 
-![img](https://docs.google.com/drawings/d/e/2PACX-1vQsqQEht02Gg7cxKrZUVXPciadzzxb6S9VSAPdQ9Vep20VuuYgATIxt65tj7ypI1kkVx7xvJ4Sm2o-5/pub?w=1578&h=303)
+![img](/img/9.png)
 
 <p class="caption">APIのリクエストURL構成</p>

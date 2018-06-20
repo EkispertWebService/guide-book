@@ -4,8 +4,7 @@
 
 入力された文字列から駅を確定し、経路探索を行い結果を表示する簡単なWebアプリケーションを作ります。
 
-
-![img1](https://docs.google.com/drawings/d/e/2PACX-1vQEwohVNihVrcpstBEzVi1lXT_rjA_MybKX-3sSK-R2FBz1kklEppFinA5zA2rYx_QU8Ebzq5xunqG5/pub?w=1240&h=884)
+![img](/img/1.png)
 
 <p class="caption">実装するアプリケーション画面イメージ</p>
 
@@ -110,7 +109,7 @@ HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実�
 ファイルに入力し終えたら、ファイルをブラウザで開いてください。
 駅が検索でき、経路探索結果のURLが表示されるアプリケーションができました。
 
-![img](https://docs.google.com/drawings/d/e/2PACX-1vQh-94YMWsKBawQb6pyqJCts6KosxU98mSzPO5S02O3kYmgl4wm07hTlPBzV0r8vYrraGW8Iu5p3NYt/pub?w=978&h=827)
+![img](/img/result.png)
 
 <p class="caption">アプリケーション実行結果</p>
 

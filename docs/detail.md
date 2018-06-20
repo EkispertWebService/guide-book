@@ -10,13 +10,11 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMd
 ブラウザでJSONのレスポンスデータを見たときに、改行が無く見づらいと感じたら、ブラウザが提供する「ブラウザ拡張機能」を利用してみてください。
 本書付録の「[オススメのブラウザ拡張機能](/docs/tools.md#extension)」をご参考にしてください。
 
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vTFzcm6K_fLyks2jJzbA60HYsSJKt_zKwcReRXVqMNh2uZAtFlwsmkgV-TDPazLxaRcvuD_L9Fz2dHv/pub?w=1088&h=511)
+![img](/img/10.png)
 
 <p class="caption">ブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能無し）</p>
 
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vRXAUMEJqApI7PL1CObdEHUs4n41P5YU1qm2y3X5WyT6nEEHrhp6aUcnqWWhsgY3i4WNX0OTfkSxsSi/pub?w=1084&h=663)
+![img](/img/use_extension.png)
 
 <p class="caption">ブラウザでURLを開いた時の画面（JSON、ブラウザ拡張機能有り）</p>
 
@@ -27,8 +25,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMd
 |name|候補文字列から駅検索を行うためのパラメータです。|
 |type|駅の交通種別を指定するパラメータです。|
 
-
-![img](https://docs.google.com/drawings/d/e/2PACX-1vRHuxBG5ycjHcqu5tQdKn_SkBA66lOe2C6PpeD85rc8FjgRDOUyoqA1uhKVuzaW8hz5FghYWtm9baq8/pub?w=783&h=566)
+![img](/img/station.png)
 
 <p class="caption">レスポンスデータの解説</p>
 

@@ -8,7 +8,7 @@
 
 #### ・JSON Formatter
 
-![img](https://docs.google.com/drawings/d/e/2PACX-1vQ_pl6qjpU3-wIgHIfXGP6DtXkfPDZ77Nvf5qBVbYkbiojxPHZaFyLv0CtTNCA68ysGNO2KUCOkklDE/pub?w=789&h=330)
+![img](/img/json_formatter.png)
 
 JSONデータがブラウザで見やすくなるブラウザ拡張機能です。WebAPIのレスポンスをブラウザで確認する時に活用します。
 
@@ -16,7 +16,7 @@ https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafap
 
 #### ・XML Tree
 
-![img](https://docs.google.com/drawings/d/e/2PACX-1vR4u3ZtwyhrVZE_ox8kYhMwDa-Yy5nLk-Vr1POJBSA95GrAHRwdYQfJuc6iwSFQpq7eFf5mqEahWJDI/pub?w=913&h=411)
+![img](/img/xml_tree.png)
 
 XMLデータがブラウザで見やすくなるブラウザ拡張機能です。さらに、XPathでXMLデータからデータを抽出することもできます。
 

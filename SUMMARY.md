@@ -15,5 +15,5 @@
     * [オススメのブラウザ拡張機能](/docs/extension.md)
     * [開発者ツールを使いこなす](/docs/devtool.md)
   * [リンク集](/docs/link.md)
-  * [スタンダードプラン10%OFFクーポンコード](/docs/coupon.md)
+  * [特別付録！スタンダードプラン10%OFFクーポンコード](/docs/coupon.md)
 * [プロフィール](/docs/profile.md)
