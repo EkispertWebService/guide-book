@@ -8,7 +8,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMd
 
 {% hint %}
 ブラウザでJSONのレスポンスデータを見たときに、改行が無く見づらいと感じたら、ブラウザが提供する「ブラウザ拡張機能」を利用してみてください。
-本書付録の「[オススメのブラウザ拡張機能](/docs/tools.md#extension)」をご参考にしてください。
+本書付録の「[オススメのブラウザ拡張機能](/docs/extension.md)」をご参考にしてください。
 
 ![img](/img/10.png)
 
