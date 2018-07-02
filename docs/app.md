@@ -121,7 +121,7 @@ HTML5インターフェースサンプルとは、HTMLとJavaScript、CSSで実�
 
 ## 脚注
 [^1]: 駅すぱあとWebサービス フリープラン https://ekiworld.net/service/lp/webservice/
-[^2]: 駅すぱあとWebサービス スタンダードプラン https://ekiworld.net/service/sier/webservice/index.html <br>※ スタンダードプランは法人のお客様のみご利用いただけます。
+[^2]: 駅すぱあとWebサービス スタンダードプラン https://ekiworld.net/service/sier/webservice/index.html
 [^3]: Webから申し込みいただくことで、アクセスキーを取得できます。 <br>フリープラン: https://ekiworld.net/free_provision/index.php <br>スタンダードプラン: https://ekiworld.net/trial/index.php?case=6
 [^4]: JS Bin https://jsbin.com/
 [^5]: JSFiddle https://jsfiddle.net/
