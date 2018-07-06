@@ -1,4 +1,31 @@
-# 駅すぱあとWebサービスとは？
+# What's Ekispert Web Service?
+
+Ekispert Web Service is one of Ekispert's offer form.
+We provide it that we have offered in Ekispert SDK[^1] and Ekispert Intranet[^2] as Ekispert feature.
+
+* Route search
+* Station data
+* Rail data
+* Corporation data
+* Calculation of fare
+* Train shedule
+* Rail map
+* Rail service information
+
+
+
+## footnote
+
+[^1]: Ekispert SDK https://ekiworld.net/service/sier/sdk/index.html
+[^2]: Ekispert Intranet https://ekiworld.net/service/sier/intranet/index.html
+[^3]: Ekispert Web Service Free Plan https://ekiworld.net/service/lp/webservice/
+[^4]: Ekispert Web Service Document http://docs.ekispert.com/v1/
+[^5]: HTML5 Interface Sample https://github.com/EkispertWebService/GUI
+
+
+
+
+
 
 「駅すぱあとWebサービス」とは、駅すぱあとの提供形態の１つです。これまでSDK[^1]やイントラネット[^2]などで提供してきた駅すぱあとの機能をWebAPIとして提供しています。
 WebAPIとして提供することで、自身の環境でのインストールや環境構築、データの更新やスケールなど従来の様々な付帯作業を気にする必要がなくなります。
@@ -20,11 +47,3 @@ WebAPIとして提供することで、自身の環境でのインストール�
 * 鉄道運行情報
 
 これは抜粋ですが、さらにこのカテゴリ以下に様々なAPIがありその数は40を超えます。すべての機能を駆使すれば、iOS/Androidで提供されているような乗り換えのためのアプリを作成することだって可能です。次項からは、そのための準備を含めて解説していきます。
-
-## 脚注
-
-[^1]: 駅すぱあとSDK/ネットワークSDK https://ekiworld.net/service/sier/sdk/index.html
-[^2]: 駅すぱあとイントラネットVer.2 https://ekiworld.net/service/sier/intranet/index.html
-[^3]: 駅すぱあとWebサービス フリープラン https://ekiworld.net/service/lp/webservice/
-[^4]: 駅すぱあとWebサービス 開発者向けドキュメント http://docs.ekispert.com/v1/
-[^5]: HTML5インターフェースサンプル https://github.com/EkispertWebService/GUI
