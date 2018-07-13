@@ -9,7 +9,7 @@ https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMd
 ```
 
 {% hint %}
-You can use some useful Web browser's extensions to make JSON easy and the eyes.  
+You can use some useful Web browser's extensions to make JSON easy on the eyes.  
 Note: [Extentions](/docs/extension.md)
 
 ![img](/img/10.png)
