@@ -1,7 +1,6 @@
-# さいごに
+# Afterword
 
-ここまで、サンプルコードを利用した簡単なアプリケーション作成と基本的なAPIの解説を紹介しましたがいかがでしょうか？
-「[駅すぱあとWebサービスとは？](/docs/product.md)」でも書きましたが、本サービスには他にも多くの機能[^1]があります。ですが、基本的な使い方、サンプルコードの再利用の方法はここまでに解説した通りです。みなさんが本サービスを気に入ってくださり、新たなアイデアや効率化などを発想していただけたら著者としてはこれに勝る喜びはありません。
+We introduced how to use Ekispert Web Service.
 
-## 脚注
-[^1]: API一覧 http://docs.ekispert.com/v1/api/#api%E4%B8%80%E8%A6%A7
+There are more benefical features in this product.
+We will be so happy if you become a fan of our product and make wonderfull application with Ekispert Web Service.

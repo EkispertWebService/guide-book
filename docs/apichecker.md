@@ -1,12 +1,13 @@
-### APIの仕様理解を深める「API Checker」 {#apichecker}
+### API Checker
 
-駅すぱあとWebサービスのドキュメントサイトでは、APIを試すのにぴったりなツール「API Chercker」[^1]を用意しています。これは、APIの仕様を調べるだけではなく、APIをインタラクティブに呼び出し挙動を試すことができるため、APIの理解を深めることができます。
+Ekispert Web Service provides API Chercker for trying API.
+This tool is created by Swagger UI.
 
 ![img](/img/api_checker.png)
 
-<p class="caption">ドキュメントサイトで用意しているAPI Checkerの画面</p>
+<p class="caption">Viewing in the browser</p>
 
 
-## 脚注
+## Footnote
 
-[^1]: API Checker <br>スタンダードプラン: http://docs.ekispert.com/v1/tools/api-checker/<br>フリープラン: http://docs.ekispert.com/v1/le/tools/api-checker/
+[^1]: API Checker <br>Standard plan: http://docs.ekispert.com/v1/tools/api-checker/<br>Free plan: http://docs.ekispert.com/v1/le/tools/api-checker/

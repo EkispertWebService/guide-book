@@ -1,9 +1,7 @@
-# APIの解説
+# API
 
-ここまでで、駅すぱあとWebサービスを使ったアプリケーションを実装しました。
-では、アプリケーション内ではどんな内容のリクエストを送信し、APIからどのようなデータが返却されているのでしょうか？
-こちらの項目では、駅簡易情報API(/station/light)[^1]を例に詳しく解説します。
+In this chapter, we explain a full detail of API specification with Simplified Station Information API[^1].
 
 
-## 脚注
-[^1]: 駅簡易情報API http://docs.ekispert.com/v1/le/api/station/light.html
+## Footnote
+[^1]: Simplified Station Information API http://docs.ekispert.com/v1/le/api/station/light.html

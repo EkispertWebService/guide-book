@@ -1,4 +1,3 @@
-## レスポンスのデータフォーマット {#format}
+## Data format
 
-駅すぱあとWebサービスのレスポンスはXMLまたはJSONで取得可能です。
-データフォーマット部分を「xml」と指定すればXMLが、「json」と指定すればJSONのフォーマットでデータが返ってきます。
+In Ekispert Web Service, XML or JSON are available for response data format.

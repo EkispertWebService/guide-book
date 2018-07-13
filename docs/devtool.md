@@ -1,27 +1,15 @@
-### 開発者ツールを使いこなす {#devtool}
+### Developer Tools
 
-今回実装したアプリケーションのように、JavaScriptを使ってブラウザ上で動くアプリケーションを作るなら、「開発者ツール」を使いこなしましょう。開発速度がグッとあがるはずです。
-開発者ツールとは、ブラウザに搭載されているデバッグツールです。「デベロッパーツール」とも呼ばれることがありますが、本書では「開発者ツール」と表記します。
-現在だとほぼ全てのブラウザで標準搭載されており、Windowsの場合は「F12」、Macの場合は「Option + Command + i」で起動できます。
+If you make a Web application, you can use Developer Tools.
+
+This is a debug tool of Web browser which is supported on almost Web browsers.
+
+How to open:  
+ Windows F2  
+ macOS Option + Command + i
 
 ![img](/img/devtool.png)
 
-<p class="caption">ブラウザ上で開発者ツールを立ち上げた状態（Google Chrome）</p>
+<p class="caption">Viewing in Web browser(Chrome)</p>
 
-ここからは、Google Chromeを例に説明します。
-
-開発者ツールの「Console」パネルは、JavaScriptのデバッグに役立ちます。
-アプリケーションが意図しない挙動をしている時は、まずConsoleパネルでエラーが発生していないか確認しましょう。
-
-![img](/img/devtool_2.png)
-
-<p class="caption">開発者ツールのConsoleパネル（Javascriptコード内でシンタックスエラーが発生している場面）</p>
-
-「Network」パネルは、表示しているページで行うHTTP通信が一覧として現れ、リクエスト、レスポンスの内容やアクセスの状況を見ることができます。つまり、駅すぱあとWebサービスへのアクセスに成功しているか、どんなやりとりがされているか確認できます。
-
-![img](/img/devtool_3.png)
-
-<p class="caption">開発者ツールのNetworkパネル</p>
-
-詳細な使い方に関してもっと知りたくなったかと思いますが、インターネット上にたくさんの情報が公開されているので、ここでは割愛します。
-興味を持って探求することはエンジニアとしてのスキルアップに繋がるはずです。ぜひ調べてみてください。
+For more information, please check on the Web.

@@ -1,3 +1,3 @@
-## 開発お役立ちツール {#tools}
+## Tools
 
-駅すぱあとWebサービスを使って開発をする上で、実際に著者が活用しているツールをご紹介します。
+We introduce tools that author actually use.

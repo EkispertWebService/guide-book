@@ -1,26 +1,21 @@
-## リンク集 {#link}
+## Links
 
-#### ・駅すぱあとWebサービス 製品ページ
+#### ・Ekispert Web Service Product Information
 
-駅すぱあとWebサービスの情報はこちらにまとまっています。  
 https://ekiworld.net/service/sier/webservice/index.html
 
-#### ・駅すぱあとWebサービス 開発者向けドキュメント
+#### ・Ekispert Web Service Documents
 
-APIの仕様や開発に役立つ多くの情報を載せています。  
 http://docs.ekispert.com/v1/
 
-#### ・HTML5インターフェースサンプル
+#### ・HTML5 Interface Sample
 
-HTMLとJavaScript、CSSで実装された画面をサンプルとして提供しているものです。  
 https://github.com/EkispertWebService/GUI
 
-#### ・駅すぱあとWebサービス Facebookページ
+#### ・Ekispert Web Service Facebook Page
 
-駅すぱあとWebサービスに関しての最新の情報を配信しています。  
 https://www.facebook.com/EkispertWebService/
 
-#### ・ステータスページ
+#### ・Status Page
 
-駅すぱあとWebサービスの稼働状況をご覧いただけます。  
 http://status.api.ekispert.jp/
