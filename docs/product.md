@@ -1,21 +1,21 @@
-# What's Ekispert Web Service?
+# What is Ekispert Web Service?
 
-Ekispert Web Service is one of the Ekispert services.
-We provide it that we have offered in Ekispert SDK[^1] and Ekispert Intranet[^2] as Ekispert feature.
-You don't need to waste time for installing, updating data and mentenance of server.
+Ekispert products are provided in some technologies such that SDK[^1] and Intranet[^2].
+Among them, Ekispert Web Service is the Web API. Unlike SDK and Intranet, the API is full-managed and you don't need to install software, update data and maintenance servers.
 
-We provide Free plan[^3] and sample code on Github[^4].
-You can read API reference on the web[^5].
-It is based on REST.
+We offer Free plan[^3].
+The sample codes[^4] are available on Github.
+You can read the API reference on the web[^5].
+The API is designed in REST style.
 
-Ekispert Web Service offers following features.
+Ekispert Web Service has following features.
 
 * Route search
 * Station data
 * Rail data
 * Corporation data
 * Calculation of fare
-* Train shedule
+* Train schedule
 * Rail map
 * Rail service information
 

@@ -1,6 +1,6 @@
 ### Extensions
 
-Extensions are small software programs that customize the browsing experience.
+Extensions are small programs that customize the browsing experience.
 
 We will introduce several helpful extensions.
 
@@ -8,7 +8,7 @@ We will introduce several helpful extensions.
 
 ![img](/img/json_formatter.png)
 
-This extension is allows to display JSON formatted data more readable in Web browser.
+This extension display JSON formatted data more readablly in Web browser.
 
 https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
 
@@ -16,12 +16,12 @@ https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafap
 
 ![img](/img/xml_tree.png)
 
-This extension is allows to display XML formatted data more readable in Web browser.
+This extension display XML formatted data more readablly in Web browser.
 
 https://chrome.google.com/webstore/detail/xml-tree/gbammbheopgpmaagmckhpjbfgdfkpadb
 
 #### ・Take Webpage Screenshots Entirely - FireShot
 
-This extension is allows to take a full page screenshot in Web browser.
+This extension allows you to take a full page screenshot in Web browser.
 
 https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg

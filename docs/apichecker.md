@@ -1,7 +1,7 @@
 ### API Checker
 
 Ekispert Web Service provides API Chercker for trying API.
-This tool is created by Swagger UI.
+This tool is based on Swagger UI.
 
 ![img](/img/api_checker.png)
 

@@ -1,6 +1,6 @@
 # API
 
-In this chapter, we explain a full detail of API specification with Simplified Station Information API[^1].
+In this chapter, we explain the full detail of the specification of Simplified Station Information API[^1].
 
 
 ## Footnote

@@ -1,8 +1,8 @@
 # Contents
 
-* [Intrduction](/README.md)
-* [What's Ekispert Web Service?](/docs/product.md)
-* [A toy App](/docs/app.md)
+* [Introduction](/README.md)
+* [What is Ekispert Web Service?](/docs/product.md)
+* [A Toy App](/docs/app.md)
 * [API](/docs/api.md)
   * [Request URL](/docs/url.md)
   * [Data format](/docs/format.md)

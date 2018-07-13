@@ -1,6 +1,6 @@
-# A toy App
+# A Toy App
 
-Let's implement an application with Ekispert Web Service.
+Let's implement an simple application using Ekispert Web Service.
 
 ![img](/img/1.png)
 
@@ -10,10 +10,10 @@ Ekispert Web Service has two plans: Free plan which is offered for free and Stan
 
 This tutorial uses only features provided in Free plan.
 
-You can use access key for tutorial: **LE_EeMdKVHwJQSen**  
+You can use this access key for tutorial: **LE_EeMdKVHwJQSen**  
 Note: This key is only for trial.
 
-Step 1, make following HTML code(List 1).
+Step 1, save the following HTML code (List 1) as index.html.
 
 ▼List 1. HTML code
 
@@ -93,16 +93,17 @@ window.addEventListener('load', init);
 
 In this example, some external file links for HTML5 Interface Sample[^3] are included such as `<script src="https://cdn.rawgit.com/EkispertWebService/GUI/84587/expGuiStation/expGuiStation.js"></script>`.
 
-Note: HTML5 Interface Sample is a sample implemented by HTML, JavaScript and CSS.
+Note: HTML5 Interface Sample is implemented with HTML, JavaScript and CSS.
 
-Now your application enables to search stations and routes.
+Double click index.html and open it with the browser.
+Now your application allows you to search stations and routes.
 
 ![img](/img/result.png)
 
 <p class="caption">Execute an application</p>
 
 {% hint %}
-If it doesn't work successfully, you can debug by Web browser's DevTools.  
+If it doesn't work successfully, you can debug with Web browser's DevTools.  
 Note: [DevTools](/docs/devtool.md)
 {% endhint %}
 

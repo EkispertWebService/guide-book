@@ -2,10 +2,10 @@
 
 If you make a Web application, you can use Developer Tools.
 
-This is a debug tool of Web browser which is supported on almost Web browsers.
+This is a debug tool of Web browser which is supported on most Web browsers.
 
 How to open:  
- Windows F2  
+ Windows F12  
  macOS Option + Command + i
 
 ![img](/img/devtool.png)

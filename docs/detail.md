@@ -1,15 +1,15 @@
 ## Detailed API Specification
 
-Simplified Station Information API is an API which is called at input form of station name in the turorial application([A toy App](/docs/app.md)).
+Simplified Station Information API is called at input form of station name in the tutorial application([A Toy App](/docs/app.md)).
 
-View at following URL in the browser.
+Open the following URL in the browser.
 
 ```
 https://api.ekispert.jp/v1/json/station/light?name=渋谷&type=train&key=LE_EeMdKVHwJQSen
 ```
 
 {% hint %}
-You can use some useful Web browser's extensions for readable JSON.  
+You can use some useful Web browser's extensions to make JSON easy and the eyes.  
 Note: [Extentions](/docs/extension.md)
 
 ![img](/img/10.png)
@@ -24,9 +24,9 @@ Note: [Extentions](/docs/extension.md)
 
 
 
-|parameters|description|
+|Parameters|Description|
 |---|---|
-|name|Station name(only Japanese)[^1].|
+|name|Station name (only Japanese)[^1].|
 |type|Station's transportation type.|
 
 ![img](/img/station2.png)
@@ -34,4 +34,4 @@ Note: [Extentions](/docs/extension.md)
 <p class="caption">Detail of response</p>
 
 ## Footnote
-[^1]: You can use another language with an option of Standard plan. https://ekiworld.net/service/sier/webservice/index.html
+[^1]: You can use other languages with an option in Standard plan. https://ekiworld.net/service/sier/webservice/index.html

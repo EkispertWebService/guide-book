@@ -1,3 +1,3 @@
 ## Tools
 
-We introduce tools that author actually use.
+We introduce tools that the author actually use.
